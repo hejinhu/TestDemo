@@ -36,7 +36,6 @@ public class PostTest {
 
         //转换为String
         String result = EntityUtils.toString(entity,"UTF-8");
-//        String content= EntityUtils.toString(entity, "UTF-8");
 
         //打印返回值
         System.out.println(result);

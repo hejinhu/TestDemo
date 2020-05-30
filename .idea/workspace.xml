@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HttpclientTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="测试idea提交代码">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpclientDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/GetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/GetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/PostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/PostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/PostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/PostTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SeleniumTest/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SeleniumTest/src/main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,6 +82,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\SeleniumTest\src\main" />
       <recent name="E:\idea-workspace\SeleniumTest\src\main\java" />
     </key>
   </component>
@@ -129,6 +136,8 @@
       <workItem from="1590847995504" duration="17000" />
       <workItem from="1590849055516" duration="17817000" />
       <workItem from="1590867074789" duration="1283000" />
+      <workItem from="1590869336032" duration="57000" />
+      <workItem from="1590869397891" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1590849212608</created>
@@ -157,6 +166,13 @@
           <value>
             <State>
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -198,54 +214,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1590867798658" />
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1590868478297">
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1590868816718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590868478297" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590868162107">
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590868816718" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1590868838381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590868162107" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590868838381" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590869384473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590869384473" />
     <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog" timestamp="1590867433570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590867433570" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1590868333408">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1590869322303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1590868333408">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590869322303" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1590869322303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1590868333408">
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590869322303" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1590869322303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1590868333408">
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590869322303" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1590869322303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590869322303" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1590867410287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590867410287" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1590866903828">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1590869176816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590866903828" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590867563704">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590869176816" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590868712515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590867563704" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590868712515" />
     <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1590844083249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590844083249" />
-    <state x="670" y="311" key="git4idea.merge.GitPullDialog" timestamp="1590867474012">
+    <state x="670" y="311" key="git4idea.merge.GitPullDialog" timestamp="1590869141657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590867474012" />
+    <state x="670" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590869141657" />
     <state x="334" y="214" key="new project wizard" timestamp="1590867677487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
