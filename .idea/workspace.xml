@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpclientTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpclientDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/GetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/GetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/PostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/PostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PostTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -40,41 +50,56 @@
     </option>
   </component>
   <component name="ProjectId" id="1cd25AldVUnGbp64YURbB3uhiO6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SeleniumTest/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.PostTest">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\SeleniumTest\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GetTest">
     <configuration name="GetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.GetTest" />
-      <module name="HttpclientDemo" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\Program Files (x86)\Java\jdk1.8.0_131\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="test.GetTest" />
+      <module name="HttpclientTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.PostTest" />
-      <module name="HttpclientDemo" />
+      <option name="MAIN_CLASS_NAME" value="test.PostTest" />
+      <module name="HttpclientTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PostTest" />
         <item itemvalue="Application.GetTest" />
+        <item itemvalue="Application.PostTest" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +127,8 @@
       <updated>1590843963308</updated>
       <workItem from="1590843964646" duration="3442000" />
       <workItem from="1590847995504" duration="17000" />
-      <workItem from="1590849055516" duration="17401000" />
+      <workItem from="1590849055516" duration="17817000" />
+      <workItem from="1590867074789" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1590849212608</created>
@@ -111,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590849212608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试idea提交代码">
+      <created>1590866671355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590866671355</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,53 +169,86 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="测试idea提交代码" />
     <option name="LAST_COMMIT_MESSAGE" value="测试idea提交代码" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="653" y="176" width="632" height="687" key="#GetTest" timestamp="1590868082686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="176" width="632" height="687" key="#GetTest/0.0.1920.1040@0.0.1920.1040" timestamp="1590868082686" />
     <state x="552" y="178" width="816" height="779" key="#Intentions" timestamp="1590845668183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="779" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1590845668183" />
+    <state x="653" y="176" key="#PostTest" timestamp="1590868067261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="176" key="#PostTest/0.0.1920.1040@0.0.1920.1040" timestamp="1590868067261" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1590845120207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590845120207" />
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1590849210818">
+    <state x="678" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590867794608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590849210818" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590866612619">
+    <state x="678" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590867794608" />
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1590867798658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590866612619" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590846207035">
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1590867798658" />
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1590868434335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590846207035" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590846207035">
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590868434335" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590868162107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590846207035" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590846207034">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590868162107" />
+    <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog" timestamp="1590867433570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590846207034" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590846207035">
+    <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590867433570" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1590868333408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590846207035" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1590866588415">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1590868333408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590866588415" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1590866389329">
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1590868333408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590866389329" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1590868333408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590868333408" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1590867410287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590867410287" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1590866903828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590866903828" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590867563704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590867563704" />
     <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1590844083249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590844083249" />
+    <state x="670" y="311" key="git4idea.merge.GitPullDialog" timestamp="1590867474012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590867474012" />
+    <state x="334" y="214" key="new project wizard" timestamp="1590867677487">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590867677487" />
   </component>
 </project>

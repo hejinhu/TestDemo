@@ -1,4 +1,4 @@
-package com.test;
+package test;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.entity.UrlEncodedFormEntity;

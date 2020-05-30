@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HttpclientTest" />
         <module name="HttpclientDemo" />
-        <module name="idea-workspace" />
+        <module name="SeleniumTest" />
       </profile>
     </annotationProcessing>
   </component>
