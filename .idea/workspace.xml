@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IOTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOTest/src/main/java/com/test/IO/IOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOTest/src/main/java/com/test/IO/properties.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOTest/src/main/java/com/test/config/properties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpclientTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpclientTest/target/classes/test/PostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/target/classes/test/PostTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpclientTest/target/classes/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/target/classes/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,27 +80,41 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SeleniumTest/src/main" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IOTest/src/main/java/com/test/IO" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\IOTest\src\main\java\com\test\IO" />
       <recent name="E:\idea-workspace\SeleniumTest\src\main" />
       <recent name="E:\idea-workspace\SeleniumTest\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.IOTest">
     <configuration name="GetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="D:\Program Files (x86)\Java\jdk1.8.0_131\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="test.GetTest" />
       <module name="HttpclientTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.IO.IOTest" />
+      <module name="IOTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.PostTest" />
         <item itemvalue="Application.GetTest" />
@@ -156,7 +175,11 @@
       <workItem from="1590849055516" duration="17817000" />
       <workItem from="1590867074789" duration="1283000" />
       <workItem from="1590869336032" duration="57000" />
-      <workItem from="1590869397891" duration="6041000" />
+      <workItem from="1590869397891" duration="7834000" />
+      <workItem from="1590886296135" duration="636000" />
+      <workItem from="1590888765391" duration="24000" />
+      <workItem from="1590892118925" duration="2522000" />
+      <workItem from="1590997713933" duration="3351000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1590849212608</created>
@@ -179,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590869746101</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改代码提交2020-05-31">
+      <created>1590879559540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590879559540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +244,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="测试idea提交代码" />
     <MESSAGE value="修改代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改代码提交" />
+    <MESSAGE value="修改代码提交2020-05-31" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改代码提交2020-05-31" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="176" width="632" height="687" key="#GetTest" timestamp="1590868082686">
@@ -237,6 +268,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590845120207" />
+    <state x="615" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590997965451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="615" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590997965451" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1590872526250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1590867798658" />
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1590869744781">
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1590879558160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590869744781" />
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590879558160" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1590868838381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,57 +296,65 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590869384473" />
-    <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog" timestamp="1590867433570">
+    <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog" timestamp="1590888784445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590867433570" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1590877855517">
+    <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590888784445" />
+    <state width="1877" height="142" key="GridCell.Tab.0.bottom" timestamp="1591001173152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590877855517" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1590877855517">
+    <state width="1877" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591001173152" />
+    <state width="1877" height="142" key="GridCell.Tab.0.center" timestamp="1591001173152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590877855517" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1590877855517">
+    <state width="1877" height="142" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591001173152" />
+    <state width="1877" height="142" key="GridCell.Tab.0.left" timestamp="1591001173152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590877855517" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1590877855517">
+    <state width="1877" height="142" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591001173152" />
+    <state width="1877" height="142" key="GridCell.Tab.0.right" timestamp="1591001173152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590877855517" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1590877818502">
+    <state width="1877" height="142" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591001173152" />
+    <state x="740" y="230" key="RollbackChangesDialog" timestamp="1591001207033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590877818502" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1590869950718">
+    <state x="740" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591001207033" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1591001167241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590869950718" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591001167241" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1590879800669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590879800669" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590871650932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590871650932" />
-    <state x="690" y="284" key="extract.method.dialog" timestamp="1590872851739">
+    <state x="690" y="284" key="extract.method.dialog" timestamp="1590999507712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="284" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590872851739" />
+    <state x="690" y="284" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590999507712" />
     <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1590844083249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590844083249" />
-    <state x="670" y="311" key="git4idea.merge.GitPullDialog" timestamp="1590869800594">
+    <state x="670" y="311" key="git4idea.merge.GitPullDialog" timestamp="1590879622833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590869800594" />
-    <state x="334" y="214" key="new project wizard" timestamp="1590867677487">
+    <state x="670" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590879622833" />
+    <state x="334" y="214" key="new project wizard" timestamp="1590997779696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590867677487" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590872596250">
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590997779696" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1591001189347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590872596250" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591001189347" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591001195525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591001195525" />
   </component>
 </project>

@@ -17,14 +17,15 @@ public class Test {
     public static void main(String[] args) throws IOException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
 
-        HttpPost httpPost = new HttpPost("https://kubaogao.com");
+        HttpPost httpPost = new HttpPost("http://59.49.55.181:8888/sxbpe/system/login!login.action");
 
 
         List<BasicNameValuePair> parameters=new ArrayList<>();
 
-        parameters.add(new BasicNameValuePair("mypassword","2F9B9DE327499891E9DDDA25B5874286947A97117EFC8B2DC6CF6963703EF679"));
-        parameters.add(new BasicNameValuePair("phoneNumber2","15902793376"));
-        parameters.add(new BasicNameValuePair("sys_requestType","ajax"));
+        parameters.add(new BasicNameValuePair("userCode","system_tjy"));
+        parameters.add(new BasicNameValuePair("userPWD","qw123456!"));
+        parameters.add(new BasicNameValuePair("userType","0"));
+        parameters.add(new BasicNameValuePair("isRememberUser","yes"));
 
 
         httpPost.setEntity(new UrlEncodedFormEntity(parameters));
