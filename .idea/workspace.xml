@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="">
+    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="提交代码2020-6-1-02">
+      <change afterPath="$PROJECT_DIR$/IOTest/src/main/java/com/test/IO/IOExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOTest/src/main/resources/config/proper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOTest/src/main/java/com/test/IO/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOTest/src/main/java/com/test/IO/IOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOTest/src/main/java/com/test/config/properties.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +76,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/IOTest/src/main/java/com/test/IO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IOTest/src" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\IOTest\src" />
       <recent name="E:\idea-workspace\IOTest\src\main\java\com\test\IO" />
       <recent name="E:\idea-workspace\SeleniumTest\src\main" />
       <recent name="E:\idea-workspace\SeleniumTest\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\IOTest" />
+      <recent name="E:\idea-workspace\IOTest\src\main\resources\config" />
+      <recent name="E:\idea-workspace\IOTest\src\main\resources" />
+      <recent name="E:\idea-workspace\IOTest\src\main\java\com\test\IO" />
+      <recent name="E:\idea-workspace\IOTest\src\main\java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.IOTest">
@@ -171,7 +183,8 @@
       <workItem from="1590886296135" duration="636000" />
       <workItem from="1590888765391" duration="24000" />
       <workItem from="1590892118925" duration="2522000" />
-      <workItem from="1590997713933" duration="3595000" />
+      <workItem from="1590997713933" duration="6405000" />
+      <workItem from="1591004284976" duration="839000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1590849212608</created>
@@ -208,7 +221,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591001239529</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提交代码2020-6-1">
+      <created>1591001319465</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591001319465</updated>
+    </task>
+    <task id="LOCAL-00007" summary="提交代码2020-6-1">
+      <created>1591001392700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591001392700</updated>
+    </task>
+    <task id="LOCAL-00008" summary="提交代码2020-6-1-02">
+      <created>1591001528751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591001528751</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +279,8 @@
     <MESSAGE value="修改代码提交" />
     <MESSAGE value="修改代码提交2020-05-31" />
     <MESSAGE value="提交代码2020-6-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交代码2020-6-1" />
+    <MESSAGE value="提交代码2020-6-1-02" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码2020-6-1-02" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="176" width="632" height="687" key="#GetTest" timestamp="1590868082686">
@@ -256,10 +291,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="827" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1590871846858" />
-    <state x="552" y="178" key="#Notifications" timestamp="1590869838865">
+    <state x="552" y="178" key="#Notifications" timestamp="1591001545658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1590869838865" />
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591001545658" />
     <state x="653" y="176" key="#PostTest" timestamp="1590868067261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -284,10 +319,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1590867798658" />
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1591001391555">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591004760084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591001391555" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591004760084" />
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1591005152824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591005152824" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1590868838381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -300,34 +339,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590888784445" />
-    <state width="1877" height="142" key="GridCell.Tab.0.bottom" timestamp="1591001515832">
+    <state width="1877" height="142" key="GridCell.Tab.0.bottom" timestamp="1591005152863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591001515832" />
-    <state width="1877" height="142" key="GridCell.Tab.0.center" timestamp="1591001515832">
+    <state width="1877" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591005152863" />
+    <state width="1877" height="142" key="GridCell.Tab.0.center" timestamp="1591005152863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="142" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591001515832" />
-    <state width="1877" height="142" key="GridCell.Tab.0.left" timestamp="1591001515832">
+    <state width="1877" height="142" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591005152863" />
+    <state width="1877" height="142" key="GridCell.Tab.0.left" timestamp="1591005152863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="142" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591001515832" />
-    <state width="1877" height="142" key="GridCell.Tab.0.right" timestamp="1591001515832">
+    <state width="1877" height="142" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591005152863" />
+    <state width="1877" height="142" key="GridCell.Tab.0.right" timestamp="1591005152863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="142" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591001515832" />
+    <state width="1877" height="142" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591005152863" />
     <state x="740" y="230" key="RollbackChangesDialog" timestamp="1591001207033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591001207033" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1591001167241">
+    <state x="821" y="324" key="SettingsEditor" timestamp="1591005123497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591001167241" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1591001410244">
+    <state x="821" y="324" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591005123497" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1591001556649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591001410244" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591001556649" />
+    <state x="675" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1591001714561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591001714561" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591001292191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

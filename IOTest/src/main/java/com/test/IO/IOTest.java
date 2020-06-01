@@ -6,15 +6,17 @@ import java.util.Properties;
 
 public class IOTest {
     public static void main(String[] args) throws IOException {
-
-
+        //实例化properties对象
         Properties properties = new Properties();
 
-        InputStream in = IOTest.class.getResourceAsStream("com/test/config/properties.properties");
+        //使用类加载器，“/”代表了工程的根目录，例如工程名叫做myproject，“/”代表了myproject
+        InputStream is = IOTest.class.getResourceAsStream("/config/proper.properties");
 
-        properties.load(in);
+        //把输入流in加载到properties中
+        properties.load(is);
 
-        System.out.println("名称="+properties.getProperty("2"));
+        //得到properties文件中，key对应的val
+        System.out.println("名称=" + properties.getProperty("location"));
 
     }
 }
