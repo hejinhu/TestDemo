@@ -10,7 +10,7 @@ public class IOTest {
 
         Properties properties = new Properties();
 
-        InputStream in = IOTest.class.getResourceAsStream("com/test/IO/properties.properties");
+        InputStream in = IOTest.class.getResourceAsStream("com/test/config/properties.properties");
 
         properties.load(in);
 
