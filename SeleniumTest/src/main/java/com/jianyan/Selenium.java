@@ -10,11 +10,11 @@ import java.util.List;
 public class Selenium {
 	public static void main(String[] args) throws InterruptedException {
 		// 设置驱动位置
-		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "SeleniumTest//drivers//chromedriver.exe");
 		// 实例化谷歌浏览器
 		WebDriver driver = new ChromeDriver();
 		// 打开主页
-		driver.get("http://192.168.10.197:9527/#/layout/");
+		driver.get("http://192.168.10.25:9527/#/layout/");
 		String windowHandle = driver.getWindowHandle();
 		System.out.println("1 Page title is: " + driver.getTitle());
 		// 输入账号密码并登陆
@@ -26,7 +26,7 @@ public class Selenium {
 
 
 		// 获取“报检受理”页面
-		driver.get("http://192.168.10.197:9527/#/zhonghe/shebei");
+		driver.get("http://192.168.10.25:9527/#/zhonghe/shebei");
 
 //		Set<String> windowHandles = driver.getWindowHandles();
 //		for (String win : windowHandles) {
