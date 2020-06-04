@@ -50,12 +50,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/idea-workspace.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="新软件提交">
+      <change afterPath="$PROJECT_DIR$/Jmeter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jmeter/src/main/java/com/jmeter/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTest/src/main/java/com/jianyan/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumTest/src/main/java/com/jianyan/Selenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTest/src/main/resources/appliction.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumTest/src/main/resources/appliction.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/GetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientTest/src/main/java/test/GetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +65,6 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,13 +107,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\idea-workspace\SeleniumTest\src\main\resources" />
-      <recent name="E:\idea-workspace\IOTest" />
-      <recent name="E:\idea-workspace\IOTest\src\main\resources\config" />
-      <recent name="E:\idea-workspace\IOTest\src\main\resources" />
-      <recent name="E:\idea-workspace\IOTest\src\main\java\com\test\IO" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -135,6 +115,13 @@
       <recent name="E:\idea-workspace\IOTest\src\main\java\com\test\IO" />
       <recent name="E:\idea-workspace\SeleniumTest\src\main" />
       <recent name="E:\idea-workspace\SeleniumTest\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\SeleniumTest\src\main\resources" />
+      <recent name="E:\idea-workspace\IOTest" />
+      <recent name="E:\idea-workspace\IOTest\src\main\resources\config" />
+      <recent name="E:\idea-workspace\IOTest\src\main\resources" />
+      <recent name="E:\idea-workspace\IOTest\src\main\java\com\test\IO" />
     </key>
   </component>
   <component name="RunManager" selected="应用程序.GetTest">
@@ -247,6 +234,10 @@
       <workItem from="1591174937731" duration="134000" />
       <workItem from="1591175082454" duration="238000" />
       <workItem from="1591175332905" duration="130000" />
+      <workItem from="1591177354333" duration="642000" />
+      <workItem from="1591231017422" duration="2095000" />
+      <workItem from="1591259795678" duration="1292000" />
+      <workItem from="1591262823198" duration="1313000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1590849212608</created>
@@ -332,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591088891964</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="新软件提交">
+      <created>1591177463605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591177463605</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +388,8 @@
     <MESSAGE value="提交IO" />
     <MESSAGE value="提交IO---20200602" />
     <MESSAGE value="2020-6-2提交selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-6-2提交selenium" />
+    <MESSAGE value="新软件提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="新软件提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="176" width="632" height="687" key="#GetTest" timestamp="1590868082686">
@@ -433,6 +432,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1590867798658" />
+    <state x="678" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1591177897269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591177897269" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591004760084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -441,10 +444,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1591175431023" />
-    <state x="711" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591175369292">
+    <state x="711" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591177932335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="711" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1591175369292" />
+    <state x="711" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1591177932335" />
     <state x="560" y="113" width="1071" height="814" key="CommitChangelistDialog2" timestamp="1591088891284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -489,34 +492,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="423" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591175125666" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1591088908654">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1591177477301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591088908654" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591177477301" />
     <state x="675" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1591001714561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591001714561" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591088897404">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591177423441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591088897404" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591177423441" />
     <state x="690" y="284" key="extract.method.dialog" timestamp="1590999507712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="284" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590999507712" />
-    <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1591146911467">
+    <state x="636" y="258" width="647" height="536" key="find.popup" timestamp="1591177760843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591146911467" />
+    <state x="636" y="258" width="647" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591177760843" />
     <state x="670" y="311" key="git4idea.merge.GitPullDialog" timestamp="1591023014990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591023014990" />
-    <state x="334" y="214" key="new project wizard" timestamp="1590997779696">
+    <state x="334" y="214" key="new project wizard" timestamp="1591247194534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590997779696" />
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591247194534" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1591007116605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

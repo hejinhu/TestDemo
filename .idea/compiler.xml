@@ -9,6 +9,7 @@
         <module name="IOTest" />
         <module name="HttpclientTest" />
         <module name="HttpclientDemo" />
+        <module name="Jmeter" />
         <module name="SeleniumTest" />
       </profile>
     </annotationProcessing>

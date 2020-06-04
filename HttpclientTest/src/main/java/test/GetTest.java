@@ -13,15 +13,15 @@ public class GetTest {
         // 创建对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
 
-        // 创建httpget对象
+        // 创建httpGet对象
         HttpGet httpget = new HttpGet("https://baidu.com");
 
-        // 使用httpget发送请求
+        // 使用httpGet发送请求
         CloseableHttpResponse response = httpClient.execute(httpget);
 
         // 解析响应
         if (response.getStatusLine().getStatusCode() == 200) {
-            String content= EntityUtils.toString(response.getEntity(), "UTF-8");
+            String content = EntityUtils.toString(response.getEntity(), "UTF-8");
             System.out.println(content);
         }
 

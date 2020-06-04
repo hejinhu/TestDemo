@@ -12,5 +12,6 @@
         <module>SeleniumTest</module>
         <module>HttpclientTest</module>
         <module>IOTest</module>
+        <module>Jmeter</module>
     </modules>
 </project>
