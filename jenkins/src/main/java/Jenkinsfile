@@ -1,0 +1,25 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('拉取代码') {
+         steps {
+            echo '代码拉取成功'
+         }
+      }
+   }
+   stages {
+      stage('maven编译') {
+         steps {
+            echo 'maven编辑成功'
+         }
+      }
+   }
+   stages {
+      stage('项目部署') {
+         steps {
+            echo '项目部署成功'
+         }
+      }
+   }
+}
