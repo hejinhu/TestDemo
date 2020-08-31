@@ -50,8 +50,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="提交jenkins">
+    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="2020.7.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumTest/src/main/resources/appliction.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumTest/src/main/resources/appliction.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39770114" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -120,7 +121,7 @@
       <recent name="E:\idea-workspace\SeleniumTest\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetTest">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="GetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.GetTest" />
       <module name="HttpclientTest" />
@@ -134,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.IO.IOTest" />
-      <module name="IOTest" />
+    <configuration name="PostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.PostTest" />
+      <module name="HttpclientTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.IO.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,6 +189,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.PostTest" />
+        <item itemvalue="Application.Selenium" />
         <item itemvalue="Application.GetTest" />
       </list>
     </recent_temporary>
@@ -255,6 +260,15 @@
       <workItem from="1593692768288" duration="535000" />
       <workItem from="1593693334412" duration="45000" />
       <workItem from="1593777370645" duration="96000" />
+      <workItem from="1593785872031" duration="231000" />
+      <workItem from="1593930108436" duration="903000" />
+      <workItem from="1594443997312" duration="81000" />
+      <workItem from="1594647228681" duration="444000" />
+      <workItem from="1597159563199" duration="1115000" />
+      <workItem from="1598107923015" duration="135000" />
+      <workItem from="1598112526958" duration="391000" />
+      <workItem from="1598792403772" duration="44000" />
+      <workItem from="1598795819440" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1590849212608</created>
@@ -361,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591579525151</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2020.7.3">
+      <created>1593786004470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593786004470</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +444,8 @@
     <MESSAGE value="提交代码0604" />
     <MESSAGE value="提交jenkins" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="2020.7.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.7.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="176" width="632" height="687" key="#GetTest" timestamp="1590868082686">
@@ -490,30 +512,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590868838381" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591174699792">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597159630424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591174699792" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597159630424" />
     <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog" timestamp="1590888784445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="781" y="433" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590888784445" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1593174676651">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1598792447901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593174676651" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1593174676651">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1598792447901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593174676651" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1593174676651">
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1598792447901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593174676651" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1593174676651">
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1598792447901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593174676651" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597160679758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597160679758" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1597160679758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597160679758" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1597160679758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597160679758" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1597160679758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597160679758" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1591005471149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -522,14 +560,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591001207033" />
-    <state x="423" y="118" key="SettingsEditor" timestamp="1592565640543">
+    <state x="338" y="93" key="SettingsEditor" timestamp="1598795836661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="338" y="93" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598795836661" />
+    <state x="423" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593786099468" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1593786038462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="423" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592565640543" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1591579547361">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591579547361" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593786038462" />
     <state x="675" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1591001714561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -550,10 +589,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593777435416" />
-    <state x="334" y="214" key="new project wizard" timestamp="1591579210984">
+    <state x="334" y="214" key="new project wizard" timestamp="1597159633885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591579210984" />
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597159633885" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1591007116605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -562,5 +601,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591001195525" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SeleniumTest/src/main/java/com/jianyan/Test.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
