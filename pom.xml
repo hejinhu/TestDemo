@@ -14,5 +14,6 @@
         <module>IOTest</module>
         <module>Jmeter</module>
         <module>jenkins</module>
+        <module>demoScanner</module>
     </modules>
 </project>
