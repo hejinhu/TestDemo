@@ -50,14 +50,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="2020.8.31">
-      <change afterPath="$PROJECT_DIR$/demoScanner/demoScanner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoScanner/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoScanner/src/main/java/demo02/DemoClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="43383c41-b828-4aab-843e-e4b49073cbed" name="Default Changelist" comment="2020/9/10">
+      <change afterPath="$PROJECT_DIR$/demoScanner/src/main/java/com/test/demo01/DemoArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoScanner/src/main/java/com/test/demo01/DemoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoScanner/src/main/java/com/test/demo01/InnerClassThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoScanner/src/main/java/com/test/demo01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoScanner/src/main/java/com/test/demo01/doudizhu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoScanner/src/main/java/demo02/DemoClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,13 +131,13 @@
       <recent name="E:\idea-workspace\SeleniumTest\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoClass">
-    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo02.DemoClass" />
+  <component name="RunManager" selected="Application.InnerClassThread">
+    <configuration name="DemoArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.demo01.DemoArrayList" />
       <module name="demoScanner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo02.*" />
+          <option name="PATTERN" value="com.test.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.PostTest" />
-      <module name="HttpclientTest" />
+    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.demo01.DemoClass" />
+      <module name="demoScanner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.test.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianyan.Selenium" />
-      <module name="SeleniumTest" />
+    <configuration name="InnerClassThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.demo01.InnerClassThread" />
+      <module name="demoScanner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jianyan.*" />
+          <option name="PATTERN" value="com.test.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianyan.Test" />
-      <module name="SeleniumTest" />
+    <configuration name="doudizhu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.demo01.doudizhu" />
+      <module name="demoScanner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jianyan.*" />
+          <option name="PATTERN" value="com.test.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerClassThread" />
+        <item itemvalue="Application.doudizhu" />
+        <item itemvalue="Application.DemoArrayList" />
         <item itemvalue="Application.DemoClass" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.PostTest" />
-        <item itemvalue="Application.Selenium" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +282,9 @@
       <workItem from="1598880158224" duration="130000" />
       <workItem from="1598884632585" duration="16000" />
       <workItem from="1599143885687" duration="235000" />
-      <workItem from="1599745526244" duration="602000" />
+      <workItem from="1599745526244" duration="4996000" />
+      <workItem from="1599880803146" duration="3557000" />
+      <workItem from="1600520331414" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="测试idea提交代码">
       <created>1590849212608</created>
@@ -403,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598880182067</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2020/9/10">
+      <created>1599746186667</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599746186667</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +476,8 @@
     <MESSAGE value="3" />
     <MESSAGE value="2020.7.3" />
     <MESSAGE value="2020.8.31" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.8.31" />
+    <MESSAGE value="2020/9/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/9/10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1592565617273">
@@ -478,42 +488,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599745745378" />
-    <state x="678" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1591177897269">
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1600521062318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591177897269" />
-    <state x="440" y="94" key="#项目结构" timestamp="1591175431023">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1591175431023" />
-    <state x="711" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591177932335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="711" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1591177932335" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599746487665" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600521062318" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597159630424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597159630424" />
-    <state width="1493" height="177" key="GridCell.Tab.0.bottom" timestamp="1599746093293">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="684" key="GridCell.Tab.0.bottom" timestamp="1600521320341">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599746093293" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
-    <state width="1493" height="177" key="GridCell.Tab.0.center" timestamp="1599746093293">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599903725240" />
+    <state width="1877" height="684" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600521320341" />
+    <state width="1877" height="684" key="GridCell.Tab.0.center" timestamp="1600521320341">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599746093293" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
-    <state width="1493" height="177" key="GridCell.Tab.0.left" timestamp="1599746093291">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="216" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599903725240" />
+    <state width="1877" height="684" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600521320341" />
+    <state width="1877" height="684" key="GridCell.Tab.0.left" timestamp="1600521320341">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599746093291" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
-    <state width="1493" height="177" key="GridCell.Tab.0.right" timestamp="1599746093293">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="216" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599903725240" />
+    <state width="1877" height="684" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600521320341" />
+    <state width="1877" height="684" key="GridCell.Tab.0.right" timestamp="1600521320341">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599746093293" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598792447901" />
+    <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599903725240" />
+    <state width="1877" height="684" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600521320341" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597160679758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -530,25 +533,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597160679758" />
+    <state x="349" y="227" key="Registry" timestamp="1599884993725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="227" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1599884993725" />
     <state x="338" y="93" key="SettingsEditor" timestamp="1599144018640">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="338" y="93" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599144018640" />
     <state x="423" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593786099468" />
-    <state x="442" y="191" key="Vcs.Push.Dialog.v2" timestamp="1598880233743">
+    <state x="442" y="191" key="Vcs.Push.Dialog.v2" timestamp="1599746206270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="191" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598880233743" />
+    <state x="442" y="191" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599746206270" />
     <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593786038462" />
     <state x="602" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598880257560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="602" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598880257560" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593777387806" />
-    <state x="636" y="258" width="647" height="536" key="find.popup" timestamp="1591177760843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="509" y="204" width="570" height="536" key="find.popup" timestamp="1599747022558">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="636" y="258" width="647" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591177760843" />
+    <state x="509" y="204" width="570" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599747022558" />
     <state x="670" y="311" key="git4idea.merge.GitPullDialog" timestamp="1593777435416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -558,6 +565,10 @@
     </state>
     <state x="267" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599745633487" />
     <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597159633885" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599882825931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599882825931" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
