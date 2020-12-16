@@ -15,5 +15,6 @@
         <module>Jmeter</module>
         <module>jenkins</module>
         <module>demoScanner</module>
+        <module>MyJmeter</module>
     </modules>
 </project>

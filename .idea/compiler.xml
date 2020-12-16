@@ -6,14 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Jmeter" />
         <module name="SeleniumTest" />
         <module name="demoScanner" />
         <module name="HttpclientTest" />
+        <module name="MyJmeter" />
         <module name="HttpclientDemo" />
         <module name="jenkins" />
         <module name="IOTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Jmeter" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

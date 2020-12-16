@@ -12,9 +12,6 @@ public class SelectDriver {
 	String browserName;
 	String serverURL;
 
-//	public Config(WebDriver driver) {
-//		this.driver=driver;
-//	}
 
 	public WebDriver user() {
 		Application application = new Application();
